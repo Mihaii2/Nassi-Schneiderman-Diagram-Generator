@@ -53,7 +53,7 @@ int tipOperatie(char rand[]) {
     }
     strncpy(cuvInceput, rand + spaces, 3);
     cuvInceput[3] = 0;
-    if (strcmp(cuvInceput, "for") == 0) {
+    if (strcmp(cuvInceput, "for") == 0) {//ghujgk
         return 2;
     }
     strncpy(cuvInceput, rand + spaces, 6);
